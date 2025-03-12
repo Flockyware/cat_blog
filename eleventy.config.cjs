@@ -37,6 +37,7 @@ module.exports = (config)=>{
 
 	// To copy through
 	config.addPassthroughCopy("src/images");
+	config.addPassthroughCopy("src/styles");
 	/* config.addPassthroughCopy("src/styles");
 	config.addPassthroughCopy("src/scripts"); 
 	config.addPassthroughCopy("rss");
