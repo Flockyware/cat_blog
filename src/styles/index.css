@@ -1,15 +1,80 @@
+
+/* MY BODY IS READY */
 html,body{
 	width:100%; height:100%;
 	margin:0;
-	background: #fff;
-	color: #333;
+	background: #ffe1f4;
+	color: #49133a;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 23px;
 	font-weight: 100;
 	line-height: 1.4em;
 }
 
-
+/* FOR CONTENT */
 #content{
-	margin: 400px;
+	margin: 150px;
+	background: #b72569;
+	padding: 50px;
+	border-radius: 20px;
+	color: #ffe1f4;
+}
+
+
+.cat_image{
+	width: 220px;
+}
+
+.cat_image:hover{
+	top: -5px;
+}
+
+
+
+/* top nav MENU */
+#header-menu{
+	margin: auto;
+	padding-left: 25px;
+	overflow: hidden;
+	background-color: #49133a;
+}
+
+#header-menu a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 24px 24px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+#header-menu a:hover{
+	color: #49133a;
+	background-color: #ffe1f4;
+
+}
+
+
+
+
+/* COLLECTIONS CSS*/
+
+.cats_container{
+
+	background-color: #ffe1f4;
+	padding: 24px 24px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer{
+
 }

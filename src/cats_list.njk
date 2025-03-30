@@ -1,0 +1,25 @@
+---
+title: lista de gatos
+layout: page.njk
+
+---
+
+
+<ul>
+    
+    {%- for post in collections.post -%}
+
+    <a href="{{post.url}}" class="cats_container">
+        <div id="cat_thumb"
+            style="background-image: url({{post.data.image}});"
+        ></div>
+        <div>
+            {{post.data.title}}
+        </div>
+        
+    </a>
+        
+    {%- endfor -%}
+</ul>
+
+
